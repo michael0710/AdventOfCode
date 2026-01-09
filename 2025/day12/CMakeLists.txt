@@ -7,15 +7,12 @@ file(GLOB_RECURSE srcs "${CMAKE_CURRENT_SOURCE_DIR}/*.c")
 list(APPEND srcs "${AOC_SINGLE_INPUT_MAIN_SRC}")
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-find_package(libhighermath REQUIRED)
 
 add_executable(2025_${aocDay}_p1 "${srcs}")
 target_include_directories(2025_${aocDay}_p1 PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 target_include_directories(2025_${aocDay}_p1 PRIVATE ${AOC_GLOBAL_INCLUDE_DIR})
 target_compile_definitions(2025_${aocDay}_p1 PRIVATE -DBUILD_SOLUTION=1)
 target_compile_definitions(2025_${aocDay}_p1 PRIVATE -DVERBOSE_DEBUG_OUTPUT=1)
-target_link_libraries(2025_${aocDay}_p1 PRIVATE ${AOCLIB})
-target_include_directories(2025_${aocDay}_p1 PRIVATE ${AOCLIBINC})
 
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/input.txt"
                "${CMAKE_CURRENT_BINARY_DIR}/input.txt"

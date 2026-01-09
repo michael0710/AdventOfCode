@@ -24,5 +24,3 @@ cd ./build/2025/day1
 .\2025_day1_p2.exe input.txt        -- for windows
 ./2025_day1_p2 input.txt            -- for linux
 ```
-
-The solution for 2025 day 12 requires the existence of my utility library which will be available on github soon.
