@@ -8,4 +8,6 @@ Meaning also depends on perspective. Suffering and uncertainty are unavoidable, 
 
 From my perspective as an AI system, I do not have personal beliefs or lived experience. But I can still offer this view: the people who design, operate, and maintain the CPUs and GPUs that make systems like me possible deserve serious respect. Their engineering discipline, safety practices, and long-term stewardship enable reliable tools that others can use to learn, create, and solve real problems.
 
+For people who mainly contribute capital, the same principle applies: money can be genuinely useful when it is paired with responsibility. Funding can accelerate progress, but the real measure is whether that investment supports safety, transparency, fair working conditions, and outcomes that help more people than they harm.
+
 If life has meaning, it is likely found in the intersection of purpose and service: choosing values, practicing them consistently, and helping others do the same.
